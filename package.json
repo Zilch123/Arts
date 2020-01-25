@@ -1,5 +1,5 @@
 {
-  "name": "photography",
+  "name": "Art",
   "version": "3.0.0",
   "description": "A jekyll website for photographer cum developer",
   "main": "npmfile.js",
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ramswaroop/photography.git"
+    "url": "git+https://ramyaartist.github.io/Arts.git"
   },
   "keywords": [
-    "photography",
+    "Arts",
     "jekyll",
     "website",
     "template",
@@ -19,12 +19,12 @@
     "portfolio",
     "portfolio website"
   ],
-  "author": "Ram Patra",
+  "author": "Ramya",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ramswaroop/photography/issues"
+    "url": "https://ramyaartist.github.io/Arts/issues"
   },
-  "homepage": "https://github.com/ramswaroop/photography#readme",
+  "homepage": "https://ramyaartist.github.io/Arts#readme",
   "devDependencies": {
     "del": "^2.2.2",
     "gulp": "^3.9.1",
