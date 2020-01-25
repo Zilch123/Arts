@@ -40,9 +40,61 @@ layout: default
                     <p>{{ site.footer.github }}</p>
                 </section>
                 <section>
+                    <h2>Follow me on ...</h2>
+                    <ul class="icons">
+                        {% if site.social_urls.facebook %}
+                            <li>
+                                <a href="{{ site.social_urls.facebook }}" class="icon fa-facebook">
+                                    <span class="label">Facebook</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.twitter %}
+                            <li>
+                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
+                                    <span class="label">Twitter</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.instagram %}
+                            <li>
+                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
+                                    <span class="label">Instagram</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.dribbble %}
+                            <li>
+                                <a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble">
+                                    <span class="label">Dribbble</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.github %}
+                            <li>
+                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
+                                    <span class="label">GitHub</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                        {% if site.social_urls.linkedin %}
+                            <li>
+                                <a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin">
+                                    <span class="label">LinkedIn</span>
+                                </a>
+                            </li>
+                        {% endif %}
+                    </ul>
+                </section>
+                <p class="copyright">
+                    &copy; {{ site.author }}. Design: {{ site.web_design }}
+                </p>
+            </div>
+            <div>
+                <section>
                     <h2>For Potraits</h2>
                     <div class="ad">
-                       <style type="text/css">
+                        <style type="text/css">
                         .tg  {border-collapse:collapse;border-spacing:0;}
                         .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
                         .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
@@ -121,59 +173,7 @@ layout: default
                           </tr>
                         </table>
                     </div>
-<!--                 </section>
-                <section> -->
-                    <h2>Follow me on ...</h2>
-                    <ul class="icons">
-                        {% if site.social_urls.facebook %}
-                            <li>
-                                <a href="{{ site.social_urls.facebook }}" class="icon fa-facebook">
-                                    <span class="label">Facebook</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.twitter %}
-                            <li>
-                                <a href="{{ site.social_urls.twitter }}" class="icon fa-twitter">
-                                    <span class="label">Twitter</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.instagram %}
-                            <li>
-                                <a href="{{ site.social_urls.instagram }}" class="icon fa-instagram">
-                                    <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.dribbble %}
-                            <li>
-                                <a href="{{ site.social_urls.dribbble }}" class="icon fa-dribbble">
-                                    <span class="label">Dribbble</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.github %}
-                            <li>
-                                <a href="{{ site.social_urls.github }}" class="icon fa-github">
-                                    <span class="label">GitHub</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                        {% if site.social_urls.linkedin %}
-                            <li>
-                                <a href="{{ site.social_urls.linkedin }}" class="icon fa-linkedin">
-                                    <span class="label">LinkedIn</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                    </ul>
                 </section>
-                <p class="copyright">
-                    &copy; {{ site.author }}. Design: {{ site.web_design }}
-                </p>
-            </div>
-            <div>
                 <section>
                     <h2>Get in touch</h2>
                     <form method="post" action="#">
